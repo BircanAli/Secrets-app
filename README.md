@@ -1,6 +1,6 @@
 # Secrets-app
 
-SecretApp - firt at Loging page it Authenticates your email and password if it is pass then redirect you to the Secret page.
+SecretApp - first at Loging page it Authenticates your email and password if it is pass then redirect you to the Secret page.
 
 
 ## Description
