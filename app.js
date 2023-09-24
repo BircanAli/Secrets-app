@@ -13,19 +13,6 @@ app.use(express.static("public"));
 app.set("view engine", "ejs");
 app.use(bodyParser.urlencoded({ extended: true }));
 
-// const uri =
-//   "mongodb+srv://testmongoDB:BircanAli@cluster0.zxyyhay.mongodb.net/testDB?retryWrites=true&w=majority";
-
-// async function connect() {
-//   try {
-//     await mongoose.connect(uri);
-//     console.log("connected to Mongodb");
-//   } catch (err) {
-//     console.error(err);
-//   }
-// }
-// connect();
-
 mongoose.set("strictQuery", true);
 
 mongoose.connect(
